@@ -11,8 +11,8 @@ export function Sidebar(){
       <span className="text-gray-400 text-sm">Web developer</span>
     </div>
     <footer className="border-t-2 border-gray-600 w-full h-24 mt-6 p-6 flex items-center justify-center">
-      <a className=" h-12 bg-transparent border border-green-700 rounded-lg w-48 py-4 px-4 flex items-center justify-center text-green-600 font-bold gap-3" href="#">
-        <PencilLine/>
+      <a className=" h-12 border border-green-700 hover:bg-green-700 hover:text-gray-100 rounded-lg w-48 py-4 px-4 flex items-center justify-center text-green-600 font-bold gap-3" href="#">
+        <PencilLine size={20}/>
         Edite seu perfil
         </a>
     </footer>
