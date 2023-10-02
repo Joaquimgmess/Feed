@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from './components/Header';
-import pageLogo from './assets/header-simbol.png';
-import Post from './components/Post';
 import Sidebar from './components/Sidebar';
+import Post from './components/Post';
+
+import pageLogo from './assets/header-simbol.png';
 
 function App() {
   return(
